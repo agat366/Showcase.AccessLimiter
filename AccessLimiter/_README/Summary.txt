@@ -1,0 +1,7 @@
+
+Name of Assignee: Boleslav M.
+
+Approximate time taken to complete the assignment: 3 hours
+
+One thing that I would suggest to improve about this assignment: there are a few notes added in the comments. The main issue is in defining the limit intervals as standalone time frames which sometimes allows "not fair" distribution of maximum requests value, so "dynamic" intervals would be a better choice. (Thus, there is no sense in ThrottleSettings.IntervalRootUtc).
+Another thing is possibly to convert ResourceProvider methods into asynchronous.
